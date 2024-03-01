@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var db=require('mongoose')
 /* GET users listing. */
-db.connect("mongodb://localhost:27017/urlShortner")
+db.connect("mongodb+srv://utkarsh:%40Utkarsh123@cluster0.uiwjnnu.mongodb.net/?retryWrites=true&w=majority")
 
 userSchema=db.Schema({
   shortId:{
